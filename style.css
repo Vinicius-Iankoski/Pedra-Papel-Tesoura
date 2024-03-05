@@ -25,6 +25,11 @@ main button {
     cursor: pointer;
 }
 
+main .hidden {
+    position: relative;
+    top: -10000px;
+}
+
 main .hidden img {
     max-width: 10px;
 }
