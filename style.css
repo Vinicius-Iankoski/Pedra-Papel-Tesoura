@@ -33,6 +33,10 @@ main button {
     right: 100vh;
 }
 
+#wrapper-display {
+    display: none;
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

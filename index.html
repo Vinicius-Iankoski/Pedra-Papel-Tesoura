@@ -13,24 +13,24 @@
 </head>
 
 <body>
-    <section>
+    <section id="main-content">
         <header>
             <h1>Pedra, Papel, Tesoura!</h1>
             <p>Para jogar, clique no botão jogar e faça a sua escolha! O robô irá jogar logo em seguida.</p>
         </header>
         <main>
-            <button>Jogar!</button>
-
+            <button onclick="abrirJogo()">Jogar!</button>
         </main>
-        <section class="wrapper container">
-            <h2 class="user">Usuário 0</h2>
-            <h2 class="computer">0 Computador</h2>
-            <p>vs</p>
-            <div class="pedra"><img src="images/pedra.png" alt="Pedra"> - Pedra!</div>
-            <div class="papel"><img src="images/papel.png" alt="Papel"> - Papel!</div>
-            <div class="tesoura"><img src="images/tesoura.png" alt="Tesoura"> - Tesoura!</div>
-        </section>
     </section>
+    <section id="wrapper-display" class="wrapper container">
+        <h2 class="user">Usuário 0</h2>
+        <h2 class="computer">0 Computador</h2>
+        <p>vs</p>
+        <div class="pedra"><img src="images/pedra.png" alt="Pedra"> - Pedra!</div>
+        <div class="papel"><img src="images/papel.png" alt="Papel"> - Papel!</div>
+        <div class="tesoura"><img src="images/tesoura.png" alt="Tesoura"> - Tesoura!</div>
+    </section>
+    <!-- </section> -->
     <script src="main.js"></script>
 </body>
 
