@@ -6,6 +6,6 @@ function abrirJogo() {
     } else {
         console.log("flex!")
         document.getElementById("main-content").style.display = "none";
-        document.getElementById("wrapper-display").style.display = "block";
+        document.getElementById("wrapper-display").style.display = "grid";
     }
 }
