@@ -1,5 +1,5 @@
 function abrirJogo() {
-    var display = document.getElementById("main-content").style.display;
+    let display = document.getElementById("main-content").style.display;
     if (display == "none") {
         document.getElementById("main-content").style.display = "flex";
         console.log("none!")
