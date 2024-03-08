@@ -67,7 +67,7 @@ main button {
 }
 
 
-.pedra {
+#pedra {
     width: 100px;
     height: 100px;
     grid-row: 2;
@@ -75,19 +75,19 @@ main button {
     justify-self: center;
 }
 
-.pedra img {
+#pedra img {
     max-width: 100%;
 }
 
-.papel img {
+#papel img {
     max-width: 100%;
 }
 
-.tesoura img {
+#tesoura img {
     max-width: 100%;
 }
 
-.papel {
+#papel {
     width: 100px;
     height: 100px;
     grid-row: 2;
@@ -95,7 +95,7 @@ main button {
     justify-self: center;
 }
 
-.tesoura {
+#tesoura {
     width: 100px;
     height: 100px;
     grid-row: 2;
