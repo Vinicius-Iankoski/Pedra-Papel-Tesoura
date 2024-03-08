@@ -13,7 +13,14 @@ function abrirJogo() {
 
 // funcao para fazer a animação CSS quando o jogador clicar em algum div
 function transicaoDeEscolha() {
+    let divs = document.querySelectorAll('.divsClicked');
 
+    divs.forEach(function (item) {
+        item.addEventListener('click', function () {
+            // this.classList.toggle('.divTeste');
+            this.console.log("clicado!")
+        });
+    });
 };
 
 // funcao para guardar a escolha do jogador
