@@ -102,3 +102,7 @@ main button {
     grid-column: 3;
     justify-self: center;
 }
+
+.divTeste {
+    color: white
+}
