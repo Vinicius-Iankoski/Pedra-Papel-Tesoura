@@ -13,11 +13,15 @@ function abrirJogo() {
 
 // fazer a animação CSS quando o jogador clicar em algum div
 let divs = document.querySelectorAll('.divsClicked');
-
+let primeiroClick = true; // serve para travar o forEach para apenas um click
 divs.forEach(function (item) {
     item.addEventListener('click', function () {
-        // this.classList.toggle('.divTeste');
-        console.log("clicado!")
+        if (primeiroClick) {
+            this.classList.toggle('divTeste');
+            this.classList.toggle("divsClicked")
+            console.log("clicado!")
+            primeiroClick = false;
+        }
     });
 });
 
