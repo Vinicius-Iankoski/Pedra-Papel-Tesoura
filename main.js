@@ -17,9 +17,18 @@ let primeiroClick = true; // serve para travar o forEach para apenas um click
 divs.forEach(function (item) {
     item.addEventListener('click', function () {
         if (primeiroClick) {
+            //testezin
             this.classList.toggle('divTeste');
-            this.classList.toggle("divsClicked")
-            console.log("clicado!")
+            this.classList.toggle("divsClicked");
+            console.log("clicado!");
+            // variaveis
+            let pedra = document.getElementById("pedra");
+            let papel = document.getElementById("papel");
+            let tesoura = document.getElementById("tesoura");
+
+            pedra.style.gridRow = 3;
+            papel.style.gridRow = 3;
+            tesoura.style.gridRow = 3;
             primeiroClick = false;
         }
     });
