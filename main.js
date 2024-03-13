@@ -27,7 +27,7 @@ divs.forEach(function (item) {
             let tesoura = document.getElementById("tesoura");
 
             pedra.style.gridRow = 3;
-            papel.style.gridRow = 3;
+            papel.style.height = '0%';
             tesoura.style.gridRow = 3;
             primeiroClick = false;
         }

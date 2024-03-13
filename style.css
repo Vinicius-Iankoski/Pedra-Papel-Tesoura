@@ -88,6 +88,7 @@ main button {
 }
 
 #papel {
+    transition: height 2s, color 0.2s;
     width: 100px;
     height: 100px;
     grid-row: 2;
