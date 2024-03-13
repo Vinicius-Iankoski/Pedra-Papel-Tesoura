@@ -18,17 +18,17 @@ divs.forEach(function (item) {
     item.addEventListener('click', function () {
         if (primeiroClick) {
             //testezin
-            this.classList.toggle('divTeste');
-            this.classList.toggle("divsClicked");
-            console.log("clicado!");
+            // this.classList.toggle('divTeste');
+            // this.classList.toggle("divsClicked");
+            // console.log("clicado!");
             // variaveis
             let pedra = document.getElementById("pedra");
             let papel = document.getElementById("papel");
             let tesoura = document.getElementById("tesoura");
 
-            pedra.style.gridRow = 3;
+            pedra.style.height = '0%';
             papel.style.height = '0%';
-            tesoura.style.gridRow = 3;
+            tesoura.style.height = '0%';
             primeiroClick = false;
         }
     });
